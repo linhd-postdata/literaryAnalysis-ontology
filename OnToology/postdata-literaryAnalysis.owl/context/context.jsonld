@@ -1,0 +1,205 @@
+{
+  "@context" : {
+    "isDerivedFrom" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isDerivedFrom",
+      "@type" : "@id"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "Line" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "hasSmallerUnits" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#hasSmallerUnits",
+      "@type" : "@id"
+    },
+    "hasContemporaryRelation" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#hasContemporaryRelation",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "isPresentIn" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isPresentIn",
+      "@type" : "@id"
+    },
+    "refersTo" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#refersTo",
+      "@type" : "@id"
+    },
+    "bibliographicCitation" : {
+      "@id" : "http://purl.org/dc/terms/bibliographicCitation"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "hasNote" : {
+      "@id" : "http://purl.org/net/nknouf/ns/bibtex#hasNote"
+    },
+    "FigureOfSpeech" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#FigureOfSpeech"
+    },
+    "hasRelationsWith" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#hasRelationsWith",
+      "@type" : "@id"
+    },
+    "isRelatedWith" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isRelatedWith",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "F2_Expression" : {
+      "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F2_Expression"
+    },
+    "isAbecedarius" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isAbecedarius",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "isSource" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isSource",
+      "@type" : "@id"
+    },
+    "Acrostic" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Acrostic"
+    },
+    "locus" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#locus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "UnitOfRhetoricalDevice" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#UnitOfRhetoricalDevice"
+    },
+    "E73_Information_Object" : {
+      "@id" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+    },
+    "hasDerivedWork" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#hasDerivedWork",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "isContainedIn" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isContainedIn",
+      "@type" : "@id"
+    },
+    "Scheme" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Scheme"
+    },
+    "FigureCategory" : {
+      "@id" : "http://bakulf.github.io/raop/0.1#FigureCategory"
+    },
+    "RethoricalDevice" : {
+      "@id" : "http://bakulf.github.io/raop/0.1#RethoricalDevice"
+    },
+    "isSmallerUnitOf" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isSmallerUnitOf",
+      "@type" : "@id"
+    },
+    "typeOfIntertextuality" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#typeOfIntertextuality",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "content" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#content"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "figureCategory" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory",
+      "@type" : "@id"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "reference" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#reference",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "referenceLocation" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#referenceLocation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "Intertextuality" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Intertextuality"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "isRelatedContemporaneouslyWith" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isRelatedContemporaneouslyWith",
+      "@type" : "@id"
+    },
+    "hasAcrostic" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#hasAcrostic",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "rethoricalOperation" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#rethoricalOperation",
+      "@type" : "@id"
+    },
+    "Trope" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Trope"
+    },
+    "Redaction" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
+    },
+    "figureReferent" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureReferent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "usesAsSource" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#usesAsSource",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "isReferencedIn" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#isReferencedIn",
+      "@type" : "@id"
+    },
+    "figureMeaning" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureMeaning",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
