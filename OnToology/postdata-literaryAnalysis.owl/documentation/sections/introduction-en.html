@@ -1,13 +1,25 @@
 <html><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+
+The ontology of the Postdata Elements of Literary Analysis covers aspects related to the literary analysis of a poetic work. These aspects refer to rhetorical analysis, literary resources and other literary devices such as intertextuality.
+
+Therefore, the following classes are defined in this ontology: <a href="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Acrostic">Acrostic</a>, <a href="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElementsElements#Intertextuality">Intertextuality</a> and <a href="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElementsElements#FigureOfSpeech">FigureOfSpeech</a> classes. This last class  is the basis of a hierarchy of classes formed by <a href="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Scheme">Scheme</a> and <a href="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Trope">Trope</a> and represents the main categorization of Figure of Speech used in rhetoric.
+The data and objects properties are described in the following sections.
+
+
+
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
 <div id="ns" align="center">
 <table>
 <caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
 <tbody>
-<tr><td><b>postdata</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements&gt;</td></tr>
+
+<tr><td><b>pdliteraryAnalysis</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#&gt;</td></tr>
+<tr><td><b>pdcore</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-core#&gt;</td></tr>
+<tr><td><b>pddates</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-dates&gt;</td></tr>
+<tr><td><b>pdstructural</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-structuralElements#&gt;</td></tr>
+<tr><td><b>pdskos</b></td><td>&lt;http://postdata.linhd.uned.es/kos/&gt;</td></tr>
+
 <tr><td><b>schema</b></td><td>&lt;http://schema.org&gt;</td></tr>
 <tr><td><b>ns</b></td><td>&lt;http://www.w3.org/2003/06/sw-vocab-status/ns&gt;</td></tr>
 <tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
@@ -20,13 +32,8 @@ This is a place holder text for the introduction. The introduction should briefl
 <tr><td><b>datatype</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/POSTDATA-literaryAnalysis.owl/dataType&gt;</td></tr>
 <tr><td><b>terms</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
 <tr><td><b>cidoc-crm</b></td><td>&lt;http://www.cidoc-crm.org/cidoc-crm&gt;</td></tr>
-<tr><td><b>postdata-literaryanalysis-owl</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/POSTDATA-literaryAnalysis.owl&gt;</td></tr>
 <tr><td><b>vann</b></td><td>&lt;http://purl.org/vocab/vann&gt;</td></tr>
-<tr><td><b>ontology</b></td><td>&lt;http://postdata.linhd.uned.es/ontology&gt;</td></tr>
-<tr><td><b>postdata-dates</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-dates&gt;</td></tr>
-<tr><td><b>postdata-structuralelements</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-structuralElements&gt;</td></tr>
 <tr><td><b>cpannotationschema</b></td><td>&lt;http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl&gt;</td></tr>
-<tr><td><b>postdata-core</b></td><td>&lt;http://postdata.linhd.uned.es/ontology/postdata-core&gt;</td></tr>
 <tr><td><b>core</b></td><td>&lt;http://purl.org/ontology/olo/core&gt;</td></tr>
 <tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
 <tr><td><b>bibtex</b></td><td>&lt;http://purl.org/net/nknouf/ns/bibtex&gt;</td></tr>
