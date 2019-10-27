@@ -5,7 +5,6 @@
 <http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/contributors> "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/contributors> "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/creator> "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/description> "This ontology supports the information necessary for the literary analysis of a poetic work. It focuses especially on rhetorical figures or figure of speech such as tropes and schemes."@en .
 <http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements> <http://purl.org/dc/elements/1.1/title> "postdata-literaryAnalysisElements ontology"@en .
@@ -358,9 +357,6 @@ _:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 # #################################################################
 # 
 # 
-# http://bakulf.github.io/raop/0.1#FigureCategory
-<http://bakulf.github.io/raop/0.1#FigureCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # http://bakulf.github.io/raop/0.1#RethoricalDevice
 <http://bakulf.github.io/raop/0.1#RethoricalDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -479,9 +475,6 @@ _:genid23 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object
-<http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # 
 # 

@@ -25,8 +25,6 @@ https://orcid.org/0000-0002-9152-4402</dc:contributors>
 https://www.linkedin.com/in/versae/</dc:contributors>
         <dc:contributors xml:lang="en">Oscar Corcho (Universidad Politécnica de Madrid)
 http://orcid.org/0000-0002-9260-0753</dc:contributors>
-        <dc:creator xml:lang="en">Helena Bermúdez Sabel 
-https://orcid.org/0000-0001-7782-206X</dc:creator>
         <dc:creator xml:lang="en">Mª Luisa Díez Platas 
 https://orcid.org/0000-0002-9416-3147</dc:creator>
         <dc:description xml:lang="en">This ontology supports the information necessary for the literary analysis of a poetic work. It focuses especially on rhetorical figures or figure of speech such as tropes and schemes.</dc:description>
@@ -615,13 +613,6 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
     
 
 
-    <!-- http://bakulf.github.io/raop/0.1#FigureCategory -->
-
-
-    <owl:Class rdf:about="http://bakulf.github.io/raop/0.1#FigureCategory"/>
-    
-
-
     <!-- http://bakulf.github.io/raop/0.1#RethoricalDevice -->
 
 
@@ -797,13 +788,6 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
 
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"/>
-    
-
-
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object -->
-
-
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     
 
 
