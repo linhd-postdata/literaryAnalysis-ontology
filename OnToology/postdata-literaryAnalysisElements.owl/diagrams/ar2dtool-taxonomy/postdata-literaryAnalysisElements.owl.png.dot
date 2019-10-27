@@ -1,0 +1,39 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "pdliteraryAnalysis:Intertextuality" "pdliteraryAnalysis:Trope" "raop:RethoricalDevice" "frbroo:F2_Expression" "pdliteraryAnalysis:Scheme" "pdliteraryAnalysis:Acrostic" "pdliteraryAnalysis:FigureOfSpeech" "pdcore:Role" "frbroo:F17_Aggregation_Work" "pdcore:OrderedTextUnitList" "agentrole:Agent" "gn:Feature" "edm:Agent" "pdcore:Agent" "pdcore:CreatorRole" "pdcore:Person" "pdcore:Organisation" "edm:Place" "pdcore:Redaction" "pdcore:Ensemble" "foaf:Person" "frbroo:F22_Self-Contained_Expression" "bibframe:Event" "edm:Event" "pdcore:TextUnit" "foaf:Organization" "edm:ProvidedCHO" "pdcore:Place" "schema1:Place" "pdcore:Event" "pdcore:PoeticWork" "frbroo:F1_Work" "schema1:Role" "objectrole:Role" "objectrole:Object" "postdata-dates:OpenedIntervalExpression" "postdata-dates:ClosedIntervalExpression" "postdata-dates:IntervalExpression" "postdata-dates:ExactDateExpression" "edm:TimeSpan" "postdata-dates:DateExpression" "postdata-dates:ApproximateDateExpression" "classification:Concept" ; /*classes style*/
+	"pdcore:Person" -> "foaf:Person" [ label = "rdfs:subClassOf" ];
+	"pdcore:Person" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
+	"pdliteraryAnalysis:FigureOfSpeech" -> "raop:RethoricalDevice" [ label = "rdfs:subClassOf" ];
+	"pdliteraryAnalysis:Intertextuality" -> "frbroo:F2_Expression" [ label = "rdfs:subClassOf" ];
+	"agentrole:Agent" -> "objectrole:Object" [ label = "rdfs:subClassOf" ];
+	"pdcore:PoeticWork" -> "frbroo:F1_Work" [ label = "rdfs:subClassOf" ];
+	"pdcore:PoeticWork" -> "edm:ProvidedCHO" [ label = "rdfs:subClassOf" ];
+	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
+	"postdata-dates:ClosedIntervalExpression" -> "postdata-dates:IntervalExpression" [ label = "rdfs:subClassOf" ];
+	"postdata-dates:ApproximateDateExpression" -> "postdata-dates:DateExpression" [ label = "rdfs:subClassOf" ];
+	"pdcore:Agent" -> "agentrole:Agent" [ label = "rdfs:subClassOf" ];
+	"pdcore:Agent" -> "edm:Agent" [ label = "rdfs:subClassOf" ];
+	"postdata-dates:OpenedIntervalExpression" -> "postdata-dates:IntervalExpression" [ label = "rdfs:subClassOf" ];
+	"pdcore:Organisation" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
+	"pdcore:Organisation" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
+	"pdcore:Ensemble" -> "frbroo:F17_Aggregation_Work" [ label = "rdfs:subClassOf" ];
+	"pdcore:TextUnit" -> "core:Slot" [ label = "rdfs:subClassOf" ];
+	"pdliteraryAnalysis:Acrostic" -> "frbroo:F2_Expression" [ label = "rdfs:subClassOf" ];
+	"pdcore:Redaction" -> "frbroo:F22_Self-Contained_Expression" [ label = "rdfs:subClassOf" ];
+	"pdcore:Place" -> "edm:Place" [ label = "rdfs:subClassOf" ];
+	"pdcore:Place" -> "schema1:Place" [ label = "rdfs:subClassOf" ];
+	"pdcore:Place" -> "gn:Feature" [ label = "rdfs:subClassOf" ];
+	"pdliteraryAnalysis:Trope" -> "pdliteraryAnalysis:FigureOfSpeech" [ label = "rdfs:subClassOf" ];
+	"pdcore:CreatorRole" -> "pdcore:Role" [ label = "rdfs:subClassOf" ];
+	"pdcore:Role" -> "objectrole:Role" [ label = "rdfs:subClassOf" ];
+	"pdcore:Role" -> "schema1:Role" [ label = "rdfs:subClassOf" ];
+	"pdliteraryAnalysis:Scheme" -> "pdliteraryAnalysis:FigureOfSpeech" [ label = "rdfs:subClassOf" ];
+	"pdcore:OrderedTextUnitList" -> "core:OrderedList" [ label = "rdfs:subClassOf" ];
+	"postdata-dates:IntervalExpression" -> "edm:TimeSpan" [ label = "rdfs:subClassOf" ];
+	"postdata-dates:IntervalExpression" -> "postdata-dates:DateExpression" [ label = "rdfs:subClassOf" ];
+	"postdata-dates:ExactDateExpression" -> "postdata-dates:DateExpression" [ label = "rdfs:subClassOf" ];
+	"pdcore:Event" -> "edm:Event" [ label = "rdfs:subClassOf" ];
+	"pdcore:Event" -> "bibframe:Event" [ label = "rdfs:subClassOf" ];
+
+}
