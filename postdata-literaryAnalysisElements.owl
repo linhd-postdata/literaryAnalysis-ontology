@@ -41,10 +41,6 @@
     <owl:Ontology rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements">
         <owl:imports rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-core"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
-        <dc:creator xml:lang="en">Mª Luisa Díez Platas 
-https://orcid.org/0000-0002-9416-3147</dc:creator>
-        <dc:creator xml:lang="en">Helena Bermúdez Sabel 
-https://orcid.org/0000-0001-7782-206X</dc:creator>
         <dc:contributors xml:lang="en">Alvaro Pérez (LINHD_POSTDATA-UNED)
 https://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/</dc:contributors>
         <dc:contributors xml:lang="en">Bruno Sartini (Bolonia University)
@@ -52,7 +48,9 @@ https://orcid.org/0000-0002-9152-4402</dc:contributors>
         <dc:contributors xml:lang="en">Javier de la Rosa (LINHD_POSTDATA-UNED)
 https://www.linkedin.com/in/versae/</dc:contributors>
         <dc:contributors xml:lang="en">Oscar Corcho (Universidad Politécnica de Madrid)
-http://orcid.org/0000-0002-9260-0753</dc:contributors>     
+http://orcid.org/0000-0002-9260-0753</dc:contributors>
+        <dc:creator xml:lang="en">Mª Luisa Díez Platas 
+https://orcid.org/0000-0002-9416-3147</dc:creator>
         <dc:description xml:lang="en">This ontology supports the information necessary for the literary analysis of a poetic work. It focuses especially on rhetorical figures or figure of speech such as tropes and schemes.</dc:description>
         <dc:title xml:lang="en">postdata-literaryAnalysisElements ontology</dc:title>
         <dcterms:publisher>POSTDATA Project</dcterms:publisher>
@@ -118,6 +116,12 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#license -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#license"/>
     
 
 
@@ -585,12 +589,6 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
     
 
 
-    <!-- http://bakulf.github.io/raop/0.1#FigureCategory -->
-
-    <owl:Class rdf:about="http://bakulf.github.io/raop/0.1#FigureCategory"/>
-    
-
-
     <!-- http://bakulf.github.io/raop/0.1#RethoricalDevice -->
 
     <owl:Class rdf:about="http://bakulf.github.io/raop/0.1#RethoricalDevice"/>
@@ -757,12 +755,6 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
     <!-- http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line -->
 
     <owl:Class rdf:about="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"/>
-    
-
-
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object -->
-
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     
 
 
