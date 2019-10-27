@@ -17,9 +17,7 @@ https://orcid.org/0000-0002-9152-4402"""@en ,
 https://www.linkedin.com/in/versae/"""@en ,
                                                                                                                            """Oscar Corcho (Universidad Politécnica de Madrid)
 http://orcid.org/0000-0002-9260-0753"""@en ;
-                                                                            <http://purl.org/dc/elements/1.1/creator> """Helena Bermúdez Sabel 
-https://orcid.org/0000-0001-7782-206X"""@en ,
-                                                                                                                      """Mª Luisa Díez Platas 
+                                                                            <http://purl.org/dc/elements/1.1/creator> """Mª Luisa Díez Platas 
 https://orcid.org/0000-0002-9416-3147"""@en ;
                                                                             <http://purl.org/dc/elements/1.1/description> "This ontology supports the information necessary for the literary analysis of a poetic work. It focuses especially on rhetorical figures or figure of speech such as tropes and schemes."@en ;
                                                                             <http://purl.org/dc/elements/1.1/title> "postdata-literaryAnalysisElements ontology"@en ;
@@ -396,10 +394,6 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
 #    Classes
 #################################################################
 
-###  http://bakulf.github.io/raop/0.1#FigureCategory
-<http://bakulf.github.io/raop/0.1#FigureCategory> rdf:type owl:Class .
-
-
 ###  http://bakulf.github.io/raop/0.1#RethoricalDevice
 <http://bakulf.github.io/raop/0.1#RethoricalDevice> rdf:type owl:Class .
 
@@ -518,10 +512,6 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> rdf:type owl:Class .
-
-
-###  http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object
-<http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> rdf:type owl:Class .
 
 
 #################################################################
