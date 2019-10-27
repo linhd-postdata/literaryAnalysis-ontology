@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://postdata.linhd.uned.es/ontology/"
-     xml:base="http://postdata.linhd.uned.es/ontology/"
+<rdf:RDF xmlns="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#"
+     xml:base="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements"
      xmlns:cc="http://creativecommons.org/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:gn="http://www.geonames.org/ontology#"
@@ -43,11 +43,10 @@
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
         <cc:license>http://creativecommons.org/licenses/by-sa/3.0/</cc:license>
         <cc:license>http://www.gnu.org/copyleft/fdl.html</cc:license>
-        <dc:creator>Helena Bermúdez Sabel  -- https://orcid.org/0000-0001-7782-206X</dc:creator>
         <dc:creator>Mª Luisa Díez Platas -- https://orcid.org/0000-0002-9416-3147</dc:creator>
         <dc:creator xml:lang="en">POSTADATA Ontology V1.0</dc:creator>
-        <dc:description xml:lang="en">This ontology supports the information necessary for the literary analysis of a poetic work. It focuses especially on rhetorical figures or figure of speech such as tropes and schemas.</dc:description>
-        <dc:title xml:lang="en">POSTDATA: Poetry Standardization and Linked Open Data</dc:title>
+        <dc:description xml:lang="en">This ontology supports the information necessary for the literary analysis of a poetic work. It focuses especially on rhetorical figures or figure of speech such as tropes and schemes.</dc:description>
+        <dc:title xml:lang="en">postdata-literaryAnalysisElements ontology</dc:title>
         <dcterms:publisher>POSTDATA Project</dcterms:publisher>
         <dcterms:publisher xml:lang="en">POSTDATA Project
 
@@ -147,15 +146,15 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory -->
+    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureVariety -->
 
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory">
+    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureVariety">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#FigureOfSpeech"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-category"/>
+                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-variety"/>
             </owl:Restriction>
         </rdfs:range>
         <rdfs:comment xml:lang="en">Categorisation of the item at hand.</rdfs:comment>
@@ -338,34 +337,34 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#rethoricalOperation -->
+    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#rhetoricalOperation -->
 
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#rethoricalOperation">
+    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#rhetoricalOperation">
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#FigureOfSpeech"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/rethorica-operation"/>
+                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/rhetorical-operation"/>
             </owl:Restriction>
         </rdfs:range>
-        <rdfs:comment xml:lang="en">Classification categories of speech figures in relation to rhetorical operations: addition, omission, transposition and transmutation</rdfs:comment>
+        <rdfs:comment xml:lang="en">Classification categories of speech figures in relation to rhetorical operations: addition, omission, transposition and permutation</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements/</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">rethoricalOperation</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#schemeCategory -->
+    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#schemeVariety -->
 
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#schemeCategory">
-        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory"/>
+    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#schemeVariety">
+        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureVariety"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Scheme"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/scheme-category"/>
+                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/scheme-variety"/>
             </owl:Restriction>
         </rdfs:range>
         <rdfs:comment xml:lang="en">Categorisation of the scheme</rdfs:comment>
@@ -375,16 +374,16 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     
 
 
-    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#tropeCategory -->
+    <!-- http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#tropeVariety -->
 
-    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#tropeCategory">
-        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory"/>
+    <owl:ObjectProperty rdf:about="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#tropeVariety">
+        <rdfs:subPropertyOf rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureVariety"/>
         <rdfs:domain rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#Trope"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-category"/>
+                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-variety"/>
             </owl:Restriction>
         </rdfs:range>
         <rdfs:comment xml:lang="en">Categorisation of the trope</rdfs:comment>
@@ -619,14 +618,14 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
         <rdfs:subClassOf rdf:resource="http://bakulf.github.io/raop/0.1#RethoricalDevice"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureVariety"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-category"/>
+                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-variety"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -635,7 +634,7 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureCategory"/>
+                <owl:onProperty rdf:resource="http://postdata.linhd.uned.es/ontology/postdata-literaryAnalysisElements#figureVariety"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass>
                     <owl:Class>
@@ -643,7 +642,7 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
                             <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-category"/>
+                                <owl:hasValue rdf:resource="http://postdata.linhd.uned.es/kos/trope-variety"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -769,9 +768,9 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
     
 
 
-    <!-- http://postdata.linhd.uned.es/kos/rethorica-operation -->
+    <!-- http://postdata.linhd.uned.es/kos/rhetorical-operation -->
 
-    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/rethorica-operation">
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/rhetorical-operation">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
@@ -783,9 +782,17 @@ En la figura de la palabra, el contenido es una palabra o frase que se utiliza e
     
 
 
-    <!-- http://postdata.linhd.uned.es/kos/trope-category -->
+    <!-- http://postdata.linhd.uned.es/kos/scheme-variety -->
 
-    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/trope-category">
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/scheme-variety">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/trope-variety -->
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/trope-variety">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
@@ -929,9 +936,9 @@ It marks the origin of the causality chain that results in a work’s coming int
 </rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R19i_was_realised_through">
-        <rdfs:label xml:lang="en">was realised through</rdfs:label>
         <rdfs:comment xml:lang="en">
 </rdfs:comment>
+        <rdfs:label xml:lang="en">was realised through</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R1_is_logical_successor_of">
         <rdfs:comment xml:lang="en">This property associates an instance of F1 Work which logically continues the content of another instance of F1 Work with the latter.
@@ -1177,9 +1184,9 @@ In cataloguing practice, such a relationship is usually just implicit. However, 
         <rdfs:label xml:lang="en">was assigned by</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R52_used_rule">
+        <rdfs:label xml:lang="en">used rule</rdfs:label>
         <rdfs:comment xml:lang="en">This property associates the event of assigning an instance of F13 Identifier with the instructions followed by an actor, such as a Bibliographic Agency, in creating that identifier.
 </rdfs:comment>
-        <rdfs:label xml:lang="en">used rule</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R52i_was_the_rule_used_in">
         <rdfs:label xml:lang="en">was the rule used in</rdfs:label>
